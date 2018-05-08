@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.nacf" name="[COLORorange]Not A Colman Fan[/COLOR]" version="1.0" provider-name="Not A Colman Fan">
+<addon id="repository.nacf" name="[COLORorange]Not A Colman Fan Repo[/COLOR]" version="1.0" provider-name="Not A Colman Fan">
 	<extension point="xbmc.addon.repository" name="Not A Colman Fan">
 	<dir>
             <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
