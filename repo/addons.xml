@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="repository.nacf" name="[COLORorange]Not A Colman Fan[/COLOR]" version="1.0" provider-name="Not A Colman Fan">
+	<extension point="xbmc.addon.repository" name="Not A Colman Fan">
+	<dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+    </dir>
+	<dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+    </dir>
+	<dir>
+            <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+    </dir>
+	<dir>
+            <info compressed="false">https://raw.githubusercontent.com/NotColmanfan/NotAColmanFan/master/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/NotColmanfan/NotAColmanFan/master/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/NotColmanfan/NotAColmanFan/master/repo/</datadir>
+    </dir>	
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.acias" name="[COLORorange]Alan Colman Is A ....[/COLOR]" version="1.0" provider-name="NotAColmanFan">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
